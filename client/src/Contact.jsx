@@ -67,7 +67,7 @@ export default function Contact() {
           <p className="success">Message sent successfully!</p>
         )}
         {status === "error" && (
-          <p className="error">Failed to send message. Please try again!</p>
+          <p className="error">Failed to send message. Please try again.</p>
         )}
       </form>
     </div>
